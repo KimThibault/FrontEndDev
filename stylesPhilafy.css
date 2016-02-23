@@ -1,0 +1,342 @@
+
+
+@media (min-width:320px) { 
+	.responsive{
+		display:inline-block;
+		width:100%;
+	}	
+	
+	
+	
+	#headerthemepages{
+		background-image: url("Images/higher.jpeg");
+		/*background-size:100% auto;*/
+		/* height:100%; */
+		background-repeat: no-repeat;
+		/*background-position: center top;
+		margin-top:0px;
+		margin-bottom:-20px; */
+	}
+	
+	h1{
+		margin:30px 10px 0 10px;
+		font-size:42pt;
+		font-weight:900;
+	}
+	
+	h2{
+		margin:0px 0 10px 0;
+		font-size:16pt;
+	}
+	
+	h3{
+		font-size:16pt;
+		margin-top:	30px;
+	}
+	
+	p{
+		margin:10px;
+		font-size:12pt;
+		font-weight:100;
+		text-align:center;
+	}		
+	
+	.nav{
+		font-size:10pt;	
+	}
+	
+	.baroftopics{
+		font-size:12pt;
+		height:20px;
+	}
+
+	.linkbox{
+		margin:-20px 5px 0 5px;
+	}
+	
+	#barofhashtags{
+		height:60px;
+	}
+	
+	#backoftopicboxes{
+		background-color:#ff6633;
+	
+	}
+	
+	.roundedbox{
+		width:100px;
+		height:50px;
+	}
+	
+	.largerroundedbox{
+		width:150px;
+		height:80px;
+	}
+	
+	.image {
+		position:relative;
+		float:left; /* optional */
+	}
+	
+	.image .text {
+		position:absolute;
+		top:20px; /* in conjunction with left property, decides the text position */
+		left:10px;
+		width:10px; /* optional, though better have one */
+	}
+	
+}
+
+/* ************************************************************************* */
+
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ 
+	.responsive{
+		display:inline-block;
+		width:100%;
+	}	
+	
+	
+	
+	#headerthemepages{
+		background-image: url("Images/stock_photo_mountains_pexels_cropped.jpeg");
+		background-size:100% auto;
+		height:80%;
+		background-repeat: no-repeat;
+		background-position: center top;
+		margin-top:0px;
+		margin-bottom:-20px;
+	}
+	
+	h1{
+		margin:30px;
+		font-size:92pt;
+		font-weight:900;
+	}
+	
+	h2{
+		margin:50px;
+		font-size:32pt;
+	}
+	
+	h3{
+		font-size:28pt;
+		font-weight:bold;
+	}
+	
+	p{
+		margin:30px;
+		font-size:16pt;
+		font-weight:100;
+		text-align:center;
+	}		
+
+	.nav{
+		font-size:14pt;	
+	}
+	
+	.baroftopics{
+		font-size:14pt;
+		height:50px;
+	}
+	
+	.linkbox{
+		margin:0 5px 0 5px;
+	}
+	
+	#barofhashtags{
+		height:60px;
+	}
+	
+	#backoftopicboxes{
+		background-color:white;
+	}
+	
+	.roundedbox{
+		width:100px;
+		height:100px;
+	}
+	
+	.largerroundedbox{
+		width:150px;
+		height:100px;
+	}	
+	
+	.image {
+		position:relative;
+		float:left; /* optional */
+	}
+	
+	.image .text {
+		position:absolute;
+		top:70px; /* in conjunction with left property, decides the text position */
+		left:10px;
+		width:10px; /* optional, though better have one */
+	}
+	
+}
+
+/* ********************************** */
+
+.navbarcontainer{
+	width:100%;	
+}
+
+p span{
+		display: block;
+	}			
+	
+li a{
+	display: inline; 
+	float:left;
+	text-decoration:none;
+	padding:10px;
+}
+
+td a{
+	color:white;
+}
+
+a:hover{
+	color:darkgrey;		
+	text-decoration:none;
+	opacity:0.8;
+}
+
+a{
+	color: #666666;
+}
+
+body{
+		background: white; 	
+		color: white;
+		text-align: center;
+		font-family: 'Lato', monospace;		
+		margin:0 auto;
+		padding:0 auto;
+	}
+	
+	
+
+.nav{
+	background-color: lightgrey;
+	color: white;
+	height: 50px;
+	}	
+
+.navbar {border-bottom : 0px;}	
+	
+#headerlandingpage{
+	background-image: url("Images/stock_photo_mountains_pexels_cropped.jpeg");
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: center top;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding-top:20px;
+	padding-bottom:20px;	
+}
+
+
+
+
+
+#backgroundofpictureboxes{
+	background:grey;	
+	width:100%;
+}
+
+.picturebox{
+	background: white;
+	border-radius: 5px;
+	color: #333333;
+	text-align:left;
+	padding: 10px;	
+	margin-top: 20px;
+	font-size:10pt;
+}
+
+.picturebox:hover{
+	opacity:0.8;
+}
+
+.greybackground{
+	background-color:#eeeeee; 
+	padding:10px;
+}
+
+.selectoption{	
+		width:320px;
+		padding-top:10px;
+}
+	
+
+.roundedbox{   /* boxes to put the hashtags links in */
+	background: lightgrey;
+	border-radius: 5px;
+	color: #666666;
+	text-align:center;
+	padding: 0px;	
+	margin: 10px 5px 10px 5px;	
+	font-size:14pt;
+	display:block;
+	float:left;
+}
+
+.largerroundedbox{   /* boxes to put the hashtags links in */
+	background: lightgrey;
+	border-radius: 5px;
+	color: #666666;
+	text-align:center;
+	padding: 10px;	
+	margin: 10px 5px 10px 5px;	
+	font-size:14pt;
+	display:block;
+	float:left;
+}
+
+
+.transparentroundedbox{  /* for tags display in the header once they're clicked on */
+	background-color:rgba(0,0,0,0);
+	border-width:3px;
+	border-color:white;
+	border-style:solid;
+	border-radius: 5px;
+	padding: 10px;	
+	margin: 0px auto; 
+	margin-left:5px;
+	margin-right: 5px ;
+	width:10%;
+	float:center;
+	box-sizing:border-box;
+	display:inline;	
+	}
+
+
+
+.fixedwidth{     /* center a div */
+	width:900px;
+	margin-left: auto ;
+	margin-right: auto ;
+}
+
+.centerautomatically{
+	margin-left: auto;
+	margin-right: auto;
+}
+	
+.outer{
+	width:100%;
+}
+
+.table {
+	display: table;   /* Allow the centering to work */
+	margin-left: auto;
+	margin-right: auto;
+    margin-bottom: 0px;
+	margin-top:0px;
+	/* width:60%; */
+}
+
+.selector{
+	color:white;
+}
